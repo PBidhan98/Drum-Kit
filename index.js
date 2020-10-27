@@ -8,7 +8,16 @@
 //     makeSound(buttonInnerHTML);
 //     buttonAnimation(buttonInnerHTML);
 //   });
-
+// // Detecting Button Press
+// var noOfDrumButtons = document.querySelectorAll(".drum").length;
+// for (var i = 0; i < noOfDrumButtons; i++) {
+//   // here we haven't used handleClick() bcoz we are waiting for the button to be clicked and passing the function name rather than calling a function without any button being clicked.
+//   // passing a function as an input so that it can be called at later time
+//   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+//     var buttonInnerHTML = this.innerHTML;
+//     makeSound(buttonInnerHTML);
+//     buttonAnimation(buttonInnerHTML);
+//   });
 // }
 // // Detecting keyboard press which means Keydown
 // document.addEventListener("keydown",function(event){
